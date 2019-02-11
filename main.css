@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #f3f2f3;
+    color: #000000;
+    font-family: Trebuchet MS, Arial, Times New Roman;
+    font-size: 12px;
+}
+nav{
+    background: #66CCCC;
+    height: 100px;
+    width: 900px;
+}
+ul{
+    list-style: none;
+
+}
+.menu{
+    width: 900px;
+    margin: 50px ;
+}
+.menu li{
+    float: right;
+    border-left:1px solid #666;
+}
+.menu li a{
+    display: block;
+    padding: 12px 20px;
+    text-decoration: none;
+    color:#fff ;
+    background: #444;
+    font: 12px Verdana, sans-serif;
+}
+.menu li:first-child{
+    border-left: none;
+}
+.menu li a:hover{
+    background: lightgrey;
+}
